@@ -1,0 +1,34 @@
+{
+  "commands": [{
+      "command": "moveTo",
+      "x": 586,
+      "y": 156
+    },
+    {
+      "command": "click",
+      "x": 586,
+      "y": 156
+    },
+    {
+      "command": "pause",
+      "time": 1
+    },
+    {
+      "command": "selectAll"
+    },
+    {
+      "command": "copy"
+    },
+    {
+      "command": "createFile",
+      "filename": "config",
+      "extension": "txt",
+      "data": "fromClipboard"
+    },
+    {
+      "command": "type",
+      "data": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit,"
+    }
+  ],
+  "iteration": 3
+}
